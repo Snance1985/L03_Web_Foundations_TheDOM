@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Lesson 03 DOM Basics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <h1>Accessing Elements in the DOM</h1>
+
+    <h2>Using document.getElementById</h2>
+    <div id="demo" class="byId">Access me by my ID</div>
+    <article class="byTag">Access me by my tag - Article 3 </article>
+
+    <h2>Using document.getElementByClassName</h2>
+    <div>
+        <ul id="newList">
+            <li id="item1" class="item">Access me by my class name</li>
+            <li id="item2" class="item">Access me by my class name too!!</li>
+        </ul>
+    </div>
+
+    <h2>Using document.getElementByTagName</h2>
+    <article class="byTag">Access me by my tag - Article 1 </article>
+    <article class="byTag">Access me by tag - Article 2</article>
+
+    <h2>Using document.querySelector</h2>
+    <div id="demo-query1" class="querySel">Access me by query - 1</div>
+    <div id="demo-query2" class="querySel">Access me by query - 2</div>
+
+
+    <h2>Using document.querySelectorAll</h2>
+    <div class="demo-query-all">Access me by query all - 1 </div>
+    <div class="demo-query-all">Access me by query all - 2</div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
